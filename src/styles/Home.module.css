@@ -1,0 +1,34 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: space-around;
+}
+
+.container {
+  padding: 0 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #041c32;
+  color: #efead8;
+}
+
+button {
+  background-color: #efead8;
+  color: #041c32;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
